@@ -1,4 +1,5 @@
 CD:
+![Image](cd.png)
 /Users/kien/CSE 15l/cse15l-lab-reports
 Running ‘cd’ with no arguments returns nothing because if there are no arguments being passed then the working directory isn’t being changed. This takes us to the root directory.
 
@@ -7,6 +8,7 @@ Running ‘cd’ with the path to the ‘cse15l-lab-reports’ returns an error 
 Running ‘cd’ on any file returns “Not a directory,” because you can’t ‘cd’ into a file. Because you can only ‘cd’ into directory, cd with an argument of a file will lead in this error.
 
 LS:
+![Image](ls.png)
 /Users/kien/CSE 15l/cse15l-lab-reports
 Running ‘ls’ with no arguments returns ‘Hello.md’ and ‘index.md’ because these are the files and folders within the directory.
 
@@ -15,6 +17,7 @@ Running `ls` with the directory of cse15l-lab-reports while being in that direct
 Running `ls` on Hello.md would lead to the terminal returning Hello.md because that is the only file within Hello.md.
 
 Cat:
+![Image](cat.png)
 /Users/kien/CSE-15l
 Running `cat` without any arguments in the terminal leads to nothing happening and then the terminal in a stalling or frozen state waiting for an input from the user. This is because the terminal can’t concatenate nothing so it is now waiting for two paths to be concatenated. 
 
