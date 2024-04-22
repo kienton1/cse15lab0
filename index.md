@@ -11,7 +11,7 @@ Running ‘cd’ on any file returns “Not a directory,” because you can’t 
 ![Image](ls.png)
 /Users/kien/CSE 15l/cse15l-lab-reports
 Running ‘ls’ with no arguments returns ‘Hello.md’ and ‘index.md’ because these are the files and folders within the directory. This doesn’t run into an error because /Users/kien/CSE 15l/cse15l-lab-reports is a valid directory that contains files within it.
-
+![Image](ls4.png)
 Running `ls` with the directory of cse15l-lab-reports while being in that directory will lead to an error of “No such file or directory” because we are in that directory and there isn’t a forward directory with that name. This would return the folders and files in cse15l-lab-reports if we were in the directory one backwards from the cse15l-lab-reports folder.
 ![Image](ls3.png)
 Running `ls` on Hello.md would lead to the terminal returning Hello.md because that is the only file within Hello.md. This doesn’t lead to an error, but instead it just leads to returning the file name back to you because `ls` is structured to handling both files and directories but there are no more files within a file so `ls` will return the name of the file that you are looking into.
